@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>To Do List</title>
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/toDoListCss.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <script src="assets/js/lib/jquery-3.4.1.js"></script>
+  </head>
+  <body>
+      <div id="container">
+        <h1>TO-DO LIST<i id="pls" class="fas fa-plus"></i></h1>
+        <input type="text" placeholder="Add New Todo">
+        <ul id="ul" class="fill">
+            <li><span><i class="fas fa-trash-alt"></i></span> Trush the can</li>
+            <li><span><i class="fas fa-trash-alt"></i></span> Wash the dishes</li>
+            <li><span><i class="fas fa-trash-alt"></i></span> Clean the room</li>
+        </ul>
+        <button><i class="far fa-arrow-alt-circle-down"></i></button>
+      </div>
+      <div id="container-btm">
+        <div class="grid">
+        <div><h4>Sunday</h4></div>
+        <div><h4>Monday</h4></div>
+        <div><h4>Tuesday</h4></div>
+        <div><h4>Wednesday</h4></div>
+        <div><h4>Thursday</h4></div>
+        <div><h4>Friday</h4></div>
+        <div><h4>Saterday</h4></div>
+      
+      <!-- <div></div> -->
+        <div id="div1" class="empty">
+          <div class='fill' draggable='true'>
+            <h3>TO-DO<i class='fas fa-minus'></i></h3>
+            <ul>
+              <li>Trush the can</li>
+              <li>Wash the dishes</li>
+              <li>Clean the room</li>
+            </ul>
+          </div>
+        </div>
+        <div id="div2" class="empty"></div>
+        <div id="div3" class="empty"></div>
+        <div id="div4" class="empty"></div>
+        <div id="div5" class="empty"></div>
+        <div id="div6" class="empty"></div>
+        <div id="div7" class="empty"></div>
+      </div>
+        <!-- <ul class="ulBtm"></ul> -->
+      </div>
+      <script src="assets/js/toDoListJs.js"></script>
+
+  </body>
+</html>

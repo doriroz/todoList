@@ -1,0 +1,139 @@
+body{
+    background: #159957;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: Roboto;
+}
+
+#container{
+    background: #f7f7f7;
+    width: 360px;
+    margin: 50px auto;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+
+#container-btm{
+    width: 90%;
+    margin: 0 auto;
+    height: 35%;
+    border: 2px dashed black;
+    border-radius: 15px;
+    background: rgba(21,153,87,0.3);
+    /* stay fixed to the bottom */
+    position: absolute;
+    bottom: 10%;
+}
+
+h1{
+    background: #2980b2;
+    color: white;
+    padding: 10px 20px;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h3{
+    background: #2980b2;
+    color: white;
+    padding: 2px 20px;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    /* line-height: 5px; */
+}
+
+.fa-plus,.fa-minus{
+    float: right;
+}
+
+.fa-plus{
+    padding: 5px 0;
+}
+
+.fa-minus{
+    padding: 10px 0;
+}
+
+input{
+    width: 100%;
+    font-size: 16px;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+    color: #2980b2  ;
+    background: #f7f7f7;
+    border: 3px solid rgba(0,0,0,0);
+    
+}
+
+input:focus{
+    background: #fff;
+    border:3px solid #2980b2;
+    outline:none;
+}
+
+.lineRed{
+    color: red;
+    text-decoration: line-through;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+}
+
+li:nth-child(2n){
+    background: #f7f7f7;
+}
+
+li:hover span{
+    width: 40px;
+    opacity: 1;
+}
+
+span{
+    background: red;
+    color: #fff;
+    width: 0;
+    text-align: center;
+    /* display: inline-block allows to set a width and height on the element. */
+    /* Also, with display: inline-block, the top and bottom margins/paddings are respected */
+    display: inline-block;
+    margin-right: 10px;
+    transition: 1s linear;
+    opacity:0;
+}
+
+button{
+    background: green;
+    outline:none;
+    height: 40px;
+    width: 100%;
+    border:none;
+    box-sizing: border-box;
+}
+
+.fa-arrow-alt-circle-down{
+    color:#fff;
+    font-size: 20px;
+}
+
+.ulBtm .li{
+    float: left;
+    padding: 0;
+    margin: 10px 20px;
+    width: 170px;
+    
+    
+}
+
+
